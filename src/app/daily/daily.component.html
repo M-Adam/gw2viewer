@@ -1,0 +1,28 @@
+<div class="row">
+        <div>
+                <mat-list>
+                    <h3>Dzisiejsze daily</h3>
+                    <mat-list-item *ngFor="let ach of achievements.slice(0, 4)">
+                        {{ ach.name }}
+                    </mat-list-item>
+                    <hr />
+                    <mat-list-item *ngFor="let ach of achievements.slice(4, 8)">
+                        {{ ach.name }}
+                    </mat-list-item>
+                </mat-list>
+            </div>
+              
+            <div>
+                <mat-list>
+                    <h3>Jutrzejsze daily</h3>
+                    <mat-list-item *ngFor="let ach of tomorrow.slice(0, 4)">
+                        {{ ach.name }}
+                    </mat-list-item>
+                    <hr />
+                    <mat-list-item *ngFor="let ach of tomorrow.slice(4, 8)">
+                        {{ ach.name }}
+                    </mat-list-item>
+                </mat-list>
+            </div>
+</div>
+

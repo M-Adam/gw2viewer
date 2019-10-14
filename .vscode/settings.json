@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/850caade-488b-445a-9137-17b628518d49/resourceGroups/gw2viewer/providers/Microsoft.Web/sites/gw2viewer",
+    "appService.deploySubpath": ""
+}
